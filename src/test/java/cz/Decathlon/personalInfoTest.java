@@ -37,6 +37,7 @@ public class personalInfoTest {
             driver.quit();
         }
     }
+    // not ok
     @ParameterizedTest
     @CsvFileSource(resources = "/persInfo.csv", numLinesToSkip = 1)
     public void makeOrderTest(String name, String surname) {

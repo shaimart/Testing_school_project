@@ -92,8 +92,6 @@ public class cartTest {
         searchPage.clickaddButton();
         searchPage.scrollUp();
         searchPage.clickEndOrderButton();
-//        searchPage.scrollUp();
-//        cartPage.clickGoToMyCart();
         cartPage.clickAddOneMoreButton();
 //        Assertions.assertTrue(cartPage.verifyCartProducts(productName));
     }

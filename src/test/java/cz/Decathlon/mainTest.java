@@ -47,7 +47,7 @@ public class mainTest {
         Assertions.assertFalse(mainPage.isLoginFailed());
 
     }
-
+    //not ok
     @ParameterizedTest
     @CsvFileSource(resources = "/invalidLoginData.csv", numLinesToSkip = 1)
     public void testFailedLogin(String email, String password) {

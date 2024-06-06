@@ -17,13 +17,10 @@ public class MainPage {
     private WebElement acceptCookiesButton;
 
 
-    //    @FindBy(css = "#cpModal > div > div > div > div.btns > a.btn.btn-success")
-//    private WebElement acceptCookiesButton;
- // registrovat se button //*[@id="content_page"]/div/div/div[1]/div[2]/div[2]/button
     @FindBy(xpath = "//*[@id=\"app\"]/header/div[1]/nav[1]/div[4]/div[4]/a")
     public WebElement loginButton;
 
-    @FindBy(xpath = "//*[@id=\"input-email\"]") //*[@id="form-sign-in"] /*[@id="form-sign-in"]/div[1]/div/div[2]/div
+    @FindBy(xpath = "//*[@id=\"input-email\"]")
     private WebElement emailField;
 
     @FindBy(xpath = "//*[@id=\"lookup-btn\"]")
@@ -38,8 +35,8 @@ public class MainPage {
 
     @FindBy(xpath = "//*[@id=\"search-bar\"]/div/form/div/input")
     private WebElement searchField;
- // //*[@id="search-bar"]/div/form/div/div/button
-    @FindBy(xpath = "//*[@id=\"search-bar\"]/div/form/div/div/button[2]/span") //*[@id="search-bar"]/div/form/div/div/button[2]/span
+
+    @FindBy(xpath = "//*[@id=\"search-bar\"]/div/form/div/div/button[2]/span")
     private WebElement searchButton;
 
     @FindBy(xpath = "//*[@id=\"app\"]/header/div[1]/nav[1]/div[4]/div[4]/a")
@@ -62,17 +59,6 @@ public class MainPage {
     @FindBy(xpath = "//*[@id=\"main-content\"]/section/div/div/div[2]/div[1]/button")
     private WebElement changeNameSurmaneButton;
 
-//    //*[@id="edit-profile__first-name"]
-//    @FindBy(xpath = "//*[@id=\"edit-profile__first-name\"]")
-//    private WebElement changeNameButton;
-//
-//
-//    @FindBy(xpath = "//*[@id=\"edit-profile__last-name\"]")
-//    private WebElement changeSurnameButton;
-//
-//
-//    @FindBy(xpath = "//*[@id=\"main-content\"]/section/div/div/div[2]/div[1]/div/form/button")
-//    private WebElement saveChangesButton;
     @FindBy(xpath = "//*[@id=\"app\"]/header/div[1]/nav[1]/div[4]/div[5]/a")
     private WebElement MyCartButton;
     public MainPage(WebDriver driver) {
